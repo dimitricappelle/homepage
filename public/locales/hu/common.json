@@ -248,7 +248,14 @@
         "warn": "Figyelmeztet",
         "total": "Összes",
         "free": "Szabad",
-        "used": "Felhasznált"
+        "used": "Felhasznált",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap",
+        "_temp": "Temp"
     },
     "changedetectionio": {
         "totalObserved": "Összes Megfigyelt",
@@ -663,7 +670,10 @@
         "currentPlayers": "Current players",
         "players": "Players",
         "maxPlayers": "Max players",
-        "bots": "Bots"
+        "bots": "Bots",
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline"
     },
     "azuredevops": {
         "status": "Status",
@@ -677,5 +687,51 @@
         "canceled": "Canceled",
         "inProgress": "In Progress",
         "totalPrs": "Total PRs"
+    },
+    "urbackup": {
+        "ok": "Ok",
+        "errored": "Errors",
+        "noRecent": "Out of Date",
+        "totalUsed": "Used Storage"
+    },
+    "openmediavault": {
+        "downloading": "Downloading",
+        "total": "Total",
+        "running": "Running",
+        "stopped": "Stopped",
+        "passed": "Passed",
+        "failed": "Failed"
+    },
+    "mealie": {
+        "recipes": "Recipes",
+        "users": "Users",
+        "categories": "Categories",
+        "tags": "Tags"
+    },
+    "atsumeru": {
+        "series": "Series",
+        "archives": "Archives",
+        "chapters": "Chapters",
+        "categories": "Categories"
+    },
+    "calibreweb": {
+        "books": "Books",
+        "authors": "Authors",
+        "series": "Series",
+        "categories": "Categories"
+    },
+    "uptimerobot": {
+        "status": "Status",
+        "uptime": "Uptime",
+        "lastDown": "Last Downtime",
+        "downDuration": "Downtime Duration",
+        "sitesUp": "Sites Up",
+        "sitesDown": "Sites Down",
+        "paused": "Paused",
+        "notyetchecked": "Not Yet Checked",
+        "up": "Up",
+        "seemsdown": "Seems Down",
+        "down": "Down",
+        "unknown": "Unknown"
     }
 }
