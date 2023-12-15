@@ -6,6 +6,7 @@ import autobrr from "./autobrr/widget";
 import azuredevops from "./azuredevops/widget";
 import bazarr from "./bazarr/widget";
 import caddy from "./caddy/widget";
+import calendar from "./calendar/widget";
 import calibreweb from "./calibreweb/widget";
 import changedetectionio from "./changedetectionio/widget";
 import channelsdvrserver from "./channelsdvrserver/widget";
@@ -20,6 +21,7 @@ import evcc from "./evcc/widget";
 import fileflows from "./fileflows/widget";
 import flood from "./flood/widget";
 import freshrss from "./freshrss/widget";
+import fritzbox from "./fritzbox/widget";
 import gamedig from "./gamedig/widget";
 import ghostfolio from "./ghostfolio/widget";
 import glances from "./glances/widget";
@@ -55,10 +57,12 @@ import nzbget from "./nzbget/widget";
 import octoprint from "./octoprint/widget";
 import omada from "./omada/widget";
 import ombi from "./ombi/widget";
+import opendtu from "./opendtu/widget";
 import opnsense from "./opnsense/widget";
 import overseerr from "./overseerr/widget";
 import openmediavault from "./openmediavault/widget";
 import paperlessngx from "./paperlessngx/widget";
+import peanut from "./peanut/widget";
 import pfsense from "./pfsense/widget";
 import photoprism from "./photoprism/widget";
 import proxmoxbackupserver from "./proxmoxbackupserver/widget";
@@ -120,6 +124,7 @@ const widgets = {
   fileflows,
   flood,
   freshrss,
+  fritzbox,
   gamedig,
   ghostfolio,
   glances,
@@ -130,6 +135,7 @@ const widgets = {
   homeassistant,
   homebridge,
   healthchecks,
+  ical: calendar,
   immich,
   jackett,
   jdownloader,
@@ -156,10 +162,12 @@ const widgets = {
   octoprint,
   omada,
   ombi,
+  opendtu,
   opnsense,
   overseerr,
   openmediavault,
   paperlessngx,
+  peanut,
   pfsense,
   photoprism,
   proxmoxbackupserver,
